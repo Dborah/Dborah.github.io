@@ -1,0 +1,19 @@
+body{
+    background-color: #EAE5C7;
+}
+
+.manuntecao{
+	border: solid;
+	border-color: #424242;
+	border-radius: 15px;
+	background-color: #424242;
+	width: 400px;
+	margin: 20px;
+
+	float: right;
+}
+
+p{
+	color: #757575;
+	text-align: center;
+}
