@@ -1,19 +1,69 @@
 body{
     background-color: #EAE5C7;
+    font-size: 18px;
+	font-family: "Roboto";
 }
 
 .manuntecao{
-	border: solid;
-	border-color: #424242;
 	border-radius: 15px;
 	background-color: #424242;
 	width: 400px;
 	margin: 20px;
-
+	padding: 10px 0px;
 	float: right;
+	font-size: 16px;
 }
 
 p{
 	color: #757575;
 	text-align: center;
+	padding-bottom: 10px;
 }
+
+section{
+	padding: 60px 0 200px;
+	text-align: center;
+}
+
+
+a{
+	color: #6aaf4e;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+.container{
+	max-width: 80%;
+	margin: 50px auto;
+}
+
+#me{
+	width: 220px;
+    height: 200px;
+    display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	box-shadow: 0px 1px 100px 0px rgba(0, 0, 0, 0.5);
+}
+
+.about-me{
+	margin: 0 auto;
+	width: 85%;
+}
+
+footer{
+	font-size: 13px;
+}
+
+.made p:after{
+	  content: '\2764';
+	  color: #E57373
+}
+
+
+    
