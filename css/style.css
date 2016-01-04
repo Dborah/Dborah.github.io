@@ -76,7 +76,7 @@ nav #menu li a:hover{
 
 .conteudo{
 	max-width: 80%;
-	margin: -150px auto;
+	margin: -0px auto;
 }
 
 #me{
@@ -94,12 +94,3 @@ nav #menu li a:hover{
 	width: 60%;
 }
 
-.manuntecao{
-	border-radius: 15px;
-	background-color: #424242;
-	width: 400px;
-	margin: -59px 3px ;
-	padding: 10px 0px 10px 0px;
-	float: bottom;
-	font-size: 16px;
-}
