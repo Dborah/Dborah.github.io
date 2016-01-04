@@ -1,38 +1,47 @@
 <!DOCTYPE html>
-<html>
-	 <head>
-	 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  			<title>Déborah Fonseca</title>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Déborah Fonseca</title>
 
   <!-- CSS  -->
-  			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  			<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  			<link rel="stylesheet" type="text/css" href="css/style.css">
-			<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-						
-	 </head>
-	 <body>
-			<nav>
-				<div class="container">
-					<a id="logo"> Déborah Fonseca</a>
-					<ul id="menu">
-						<li><a href="#!">Meu Trabalho</a></li>
-						<li><a href="#!">Habilidades</a></li>
-						
-					</ul>
-				</div>
-			</nav>
-			
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Déborah Fonseca</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Meu trabalho</a></li>
+        <li><a href="#">Habilidades</a></li>
+      </ul>
 
-			<section>
-				<div class="conteudo">
-					<img id="me" src="img/me.jpg">
-					<div class="about-me">
-						<p>Oi, estudo Tecnologia em Sistemas para Internet no Instituto Federal do Sudeste de Minas Gerais. Sou apaixonada por  web designer, programação e tecnologia. Você pode me seguir no  <a href="https://github.com/Dborah">GitHub</a>!</p>	
-					</div>
-				</div>
-			</section>
-	 </body>
+      <ul id="nav-mobile" class="side-nav">
+         <li><a href="#">Meu trabalho</a></li>
+        <li><a href="#">Habilidades</a>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <figure>
+      	<img class="me" src="img/me.jpg">
+      </figure>
+      <div class="row center">
+        <h5 class="header col s12 light">Oi, estudo Tecnologia em Sistemas para Internet no Instituto Federal do Sudeste de Minas Gerais. Sou apaixonada por  web designer, programação e tecnologia. Você pode me seguir no  <a href="https://github.com/Dborah">GitHub</a>!</h5>
+      </div>
+      <br><br>
+    </div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
